@@ -36,6 +36,8 @@ body {
 textarea {
     display: block;
     background: #fff;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
     top: 30px;
     height: 44px;
     width: 666px;
@@ -46,7 +48,7 @@ textarea {
     border-bottom-left-radius: 24px;
     border: 1px solid #dfe1e5;
     resize: none;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 46px;
     padding-left: 20px;
     box-shadow: none;
@@ -57,7 +59,7 @@ textarea {
     color: #4285f4;
     height: 24px;
     width: 24px;
-    margin-left: -43px;
+    margin-left: -40px;
     margin-top: 12px;
 }
 
@@ -81,7 +83,7 @@ textarea {
 }
 
 .nav-buttons {
-    padding: 10px 15px 4px 5px;
+    padding: 10px 14.5px 4px 5px;
     font-size: 13px;
     color: #5f6368;
 }
@@ -119,4 +121,134 @@ textarea {
     font-size: 14px;
     color: #70757a;
     margin-left: 172px;
+}
+
+.link {
+    order: 4;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.light-grey-text {
+    order: 4;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+#first-result-light-grey-text {
+    margin-top: -30px;
+    margin-left: 278px;
+}
+
+#first-result-link {
+    margin-left: 172px;
+    margin-top: 7px;
+}
+
+.bold-text {
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+strong {
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.normal-text {
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    color: #525156;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#first-webpage-title {
+    order: 5;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    margin-top: -7px;
+    color: #1a0dab;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 172px;
+}
+
+#first-webpage-bold-text {
+    order: 6;
+    margin-left: 172px;
+    margin-top: -13px;
+}
+
+#first-webpage-normal-text {
+    order: 6;
+    margin-left: 298px;
+    margin-top: -30px;
+}
+
+#first-webpage-normal-text2 {
+    order: 6;
+    margin-left: 172px;
+    margin-top: -8px;
+}
+
+#second-result-link {
+    order: 7;
+    margin-left: 172px;
+    margin-top: 20px;
+}
+
+#second-result-light-grey-text {
+    order: 7;
+    margin-top: -30px;
+    margin-left: 306px;
+}
+
+#second-webpage-title {
+    order: 7;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    margin-top: -7px;
+    color: #1a0dab;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 172px;
+}
+
+#second-webpage-normal-text {
+    order: 8;
+    margin-left: 172px;
+    margin-top: -12px;
+}
+
+#second-webpage-normal-text2 {
+    order: 9;
+    margin-left: 172px;
+    margin-top: -8px;
+}
+
+#video-header {
+    order: 10;
+    font-family: Arial, sans-serif;
+    font: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 172px;
+}
+
+.video-container {
+    order: 11;
+    display: flex;
+    flex-direction: row;
 }
