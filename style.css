@@ -231,6 +231,7 @@ iframe {
     border: 1px solid #dfe1e5;
     border-radius: 8px;
     width: 652px;
+    margin-top: 20px;
 }
 
 .people-also-ask-header {
@@ -259,4 +260,33 @@ iframe {
     position: relative;
     line-height: 1.3;
     padding-left: 16px;
+}
+
+#feedback {
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.34;
+    color: #70757a;
+    margin-left: 580px;
+}
+
+.related-results-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.related-results-text {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1a0dab;
+    padding: 3px 32px 3px 0;
+}
+
+#gooogle-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    margin-top: 15px;
 }
