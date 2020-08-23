@@ -253,13 +253,22 @@ iframe {
 .question {
     outline: 0;
     border-top: 1px solid #e5e5e5;
-    display: block;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     padding-bottom: 1px;
     padding-top: 1px;
     position: relative;
     line-height: 1.3;
     padding-left: 16px;
+}
+
+#down-arrow {
+    width: 24px; 
+    height: 24px; 
+    display: inline-block; 
+    margin-top: 15px; 
+    color: #70757A;
 }
 
 #feedback {
@@ -289,4 +298,65 @@ iframe {
     flex-direction: row;
     margin-left: 130px;
     margin-top: 15px;
+}
+
+#results-pages {
+    display: block;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #4285f4;
+    word-spacing: 8px;
+    margin-left: 168px;
+    margin-bottom: 20px;
+}
+
+#google-footer {
+    background: #f2f2f2;
+    height: 66px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    padding-top: 6px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 172px;
+}
+
+.grey-dot{
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 1px 2px 9px 0px;
+    width: 10px;
+    background: #9e9e9e;
+}
+
+#footer-location {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 15px;
+    color: #333;
+    font-weight: bold;
+    vertical-align: top;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.footer-text {
+    font-family: arial,sans-serif;
+    line-height: 15px;
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.footer-bottom-text {
+    font-size: 14px;
+    line-height: 40px;
+    visibility: visible;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    padding-right: 27px;
 }
