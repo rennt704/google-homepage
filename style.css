@@ -3,16 +3,6 @@ header {
     flex-direction: column;
 }
 
-@media (max-width: 900px) {
-    .apps-button {
-        width: 24px;
-        height: 24px;
-        margin-left: 20px;
-        margin-top: 4px;
-        fill: #5f6368;
-    }
-}
-
 #top-section {
     display: flex;
     flex-direction: row;
@@ -369,4 +359,10 @@ iframe {
     color: #5f6368;
     font-family: arial,sans-serif;
     padding-right: 27px;
+}
+
+@media screen and (max-width: 900px) {
+    .apps-button {
+        margin-left: 20px !important;
+    }
 }
